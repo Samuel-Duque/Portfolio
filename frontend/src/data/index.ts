@@ -27,3 +27,4 @@ export const about: About = {
 };
 
 export * from "./about";
+export * from "./skill";
