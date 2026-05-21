@@ -1,6 +1,7 @@
 import SectionTitle from "./SectionTitle";
 import { skill } from "../data";
 import type { SkillCategory, SkillItem } from "../data";
+import Badge from "./Badge";
 
 function Skills() {
   return (
@@ -12,7 +13,8 @@ function Skills() {
             <h3 className="font-bold mb-3">{category.category}</h3>
             <div className="space-y-2">
               {category.items.map((item: SkillItem) => (
-                <div key={item.name}>
+                <div>
+                  <Badge key={item.name} text={item.name} />
                   <p className="text-sm">{item.name}</p>
                   <p className="text-xs text-gray-500">{item.level}</p>
                 </div>

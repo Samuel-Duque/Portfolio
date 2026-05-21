@@ -1,16 +1,7 @@
-export const education = [
-  {
-    degree: "Estudiante en Ingeniería Informática",
-    institution: "Politecnico Colombiano Jaime Isaza Cadavid",
-    year: "2023 - Presente",
-    current: true,
-  },
-];
-
-export const certification = [
-  {
-    name: "",
-    issuer: "",
-    year: "",
-  },
-];
+export const education = {
+  degree: "Computer engineering student",
+  institution: "Politecnico Colombiano Jaime Isaza Cadavid",
+  startYear: 2023,
+  endYear: null,
+  current: true,
+};
